@@ -1,5 +1,11 @@
 const mongoose = require('mongoose');
 
+const options = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  serverSelectionTimeoutMS: 60000 
+};
+
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
