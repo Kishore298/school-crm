@@ -80,7 +80,7 @@ const Teachers = () => {
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4 text-center text-blue-600">List of Teachers  <i className="fa-solid fa-chalkboard-teacher text-3xl text-blue-600 mb-2"></i></h1>
       <div className="flex justify-center gap-[100px]">
-      <Link to="/add-teacher" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Teacher</Link>
+      <Link to="/add-teacher" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 mb-3">Add Teacher</Link>
       </div>
       {isEditing ? (
         <form
