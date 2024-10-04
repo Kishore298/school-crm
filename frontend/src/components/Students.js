@@ -85,7 +85,7 @@ const Students = () => {
     <div className="p-4">
       <h1 className="text-2xl font-bold  mb-4 text-center text-blue-600">List of Students  <i className="fa-solid fa-user-graduate text-3xl text-blue-600 mb-2"></i></h1>
       <div className="flex justify-center gap-[100px]">
-      <Link to="/add-student" className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Add Student</Link>
+      <Link to="/add-student" className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 mb-3">Add Student</Link>
       </div>
       {isEditing ? (
         <form
