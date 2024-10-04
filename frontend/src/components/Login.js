@@ -20,7 +20,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', { email, password });
+      const response = await axios.post('https://school-crm-kxq5.onrender.com/api/auth/login', { email, password });
       if (response.data && response.data.token) {
         login({ _id: response.data._id, name: response.data.name, email: response.data.email }, response.data.token);
         navigate('/home');

@@ -17,10 +17,10 @@ const Analytics = () => {
     const fetchData = async () => {
       try {
         const [students, teachers, classes, gender] = await Promise.all([
-          axios.get('http://localhost:5000/api/students/analytics'),
-          axios.get('http://localhost:5000/api/teachers/analytics'),
-          axios.get('http://localhost:5000/api/classes/analytics'),
-          axios.get('http://localhost:5000/api/students/gender-analytics'),
+          axios.get('https://school-crm-kxq5.onrender.com/api/students/analytics'),
+          axios.get('https://school-crm-kxq5.onrender.com/api/teachers/analytics'),
+          axios.get('https://school-crm-kxq5.onrender.com/api/classes/analytics'),
+          axios.get('https://school-crm-kxq5.onrender.com/api/students/gender-analytics'),
         ]);
 
         setStudentData(students.data);

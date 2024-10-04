@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/teachers';
+const API_URL = 'https://school-crm-kxq5.onrender.com/api/teachers';
 
 const teacherService = {
   getTeachers: async (page, sortBy = 'name', order = 'asc', search = '') => {
