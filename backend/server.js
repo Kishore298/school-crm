@@ -8,10 +8,10 @@ const authRoutes = require('./routes/authRoutes');
 const studentRoutes = require('./routes/studentRoutes');
 const teacherRoutes = require('./routes/teacherRoutes');
 const classRoutes = require('./routes/classRoutes');
-const Teacher = require('./models/Teacher');
-const Student = require('./models/Student');
-const Class = require('./models/Class');
-const User = require('./models/User');
+// const Teacher = require('./models/Teacher');
+// const Student = require('./models/Student');
+// const Class = require('./models/Class');
+// const User = require('./models/User');
 
 dotenv.config();
 connectDB();
