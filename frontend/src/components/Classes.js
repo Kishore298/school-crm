@@ -79,9 +79,7 @@ const Classes = () => {
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4 text-center text-blue-600">List of Classes  <i className="fa-solid fa-school text-3xl mb-4 text-blue-600"></i></h1>
      <div className="flex justify-center gap-[100px]">
-     <Link to="/add-student" className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Add Student</Link>
-     <Link to="/add-teacher" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Teacher</Link>
-     <Link to="/add-class" className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Add Class</Link>
+     <Link to="/add-class" className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 mb-3">Add Class</Link>
     </div>
       {isEditing ? (
         <form
